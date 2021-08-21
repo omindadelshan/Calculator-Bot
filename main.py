@@ -14,16 +14,16 @@ Bot = Client(
 
 
 START_TEXT = """
-Hello {}, I am a simple calculator telegram bot. Send me /calculator.
+👋Hello {}, I am a simple calculator telegram bot. Send me🎈 /calculator 🎈Command And Start Calculate👨‍💻.
 
-Made by @FayasNoushad
+❤️Made by @omindas❤️ 🎈Hosting Heroku❤️
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')
+        InlineKeyboardButton('🎲Update Groul🎲', url='https://telegram.me/sdbotworld')
         ]]
     )
-CALCULATE_TEXT = "Made by @FayasNoushad"
+CALCULATE_TEXT = "❤️Made by @omindas ❤️"
 CALCULATE_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton("DEL", callback_data="DEL"),
