@@ -54,7 +54,7 @@ CALCULATE_BUTTONS = InlineKeyboardMarkup(
     )
 
 
-@Bot.on_message(filters.command(["start"]))
+@Bot.on_message(filters.command(["cstart"]))
 async def start(bot, update):
     text = START_TEXT.format(update.from_user.mention)
     reply_markup = START_BUTTONS
